@@ -1,0 +1,21 @@
+{
+  "status": "up",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "auth-gateway",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "up",
+      "responseTime": 25
+    },
+    "authenticationService": {
+      "status": "up",
+      "responseTime": 18
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.15,
+    "memoryUsage": 0.62,
+    "requestCount": 12345
+  }
+}
